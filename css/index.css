@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css); 
+
+
+/*超連結預設沒有底線*/
+a {
+  text-decoration: none;
+}
+/*超連結滑鼠移上後預設也沒有底線*/
+a:hover {
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+
+}
+.fix_bg,.info{
+  min-height: 100%;
+}
+body{
+  color: #fff;
+font-family: "cwTeXHei", sans-serif;
+}
+
+.info h2, .fix_bg h2{
+
+font-size: 1.5em;
+}
+
+.section-heading{
+
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.navbar-default{
+  background-color:#a66037;
+  border:none;
+
+}
+
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover{
+   color: #d59f80; 
+}
+
+
+/* 選單 */
+.navbar-default .navbar-nav>li>a{
+     color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default 
+.navbar-nav>.active>a:hover{
+   color: #fff; 
+   background-color:#533828;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+   color: #d59f80;   
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+.fix_bg{
+    position: relative; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.bg_1{
+  background-image: url(../images/olhk_wlupsc-karlis-dambrans.jpg);
+}
+
+.bg_2{
+  background-image: url(../images/znog43hbee8-jade-wulfraat.jpg);
+}
+.bg_3{
+  background-image: url(../images/gw78g_i7gyo-jennifer-pallian.jpg);
+}
+
+
+.color_1{
+  background-color: #d59f80;
+}
+
+.color_2{
+  background-color: #533828;
+}
+
+
+
+.vcenter{
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%); /* Chrome, newer versions of Opera*/
+  -moz-transform: translateX(-50%) translateY(-50%); /* Firefox */
+  -ms-transform: translateX(-50%) translateY(-50%); /* nternet Explorer */
+  -o-transform: translateX(-50%) translateY(-50%); /* Old versions of Opera */
+  transform: translateX(-50%) translateY(-50%); 
+  text-align: center;
+}
+.maintitle{
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.1);
+
+}
+
+.shadow {
+  text-shadow: 0px 0px 6px rgba(0,0,0, .7);
+}
+
+.info{
+  padding: 100px 0px;
+}
+/* 可以讓字斷行 */
+.word{
+  word-wrap: break-word;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
