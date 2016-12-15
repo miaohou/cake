@@ -4,11 +4,15 @@
 	<meta charset="UTF-8">
 	<title>派慕 ‧ 流浪甜點</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon-birthday-cake.ico">
+	<!-- bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- 自己的 -->	
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/index.css">
-	<link rel="shortcut icon" href="images/favicon-birthday-cake.ico">
+
 
 
 <body>
@@ -49,11 +53,9 @@
 
     <div class="info color_1" id="about" >
     	<div class="container-fluid">
-<div class="row">
-                <div class="col-lg-5 col-lg-offset-2  col-sm-6">
-                    
-
-                    <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-2  col-sm-6">
+                <div class="clearfix"></div>
                     <h2 class="section-heading">跟著舌尖去流浪</h2>
                     <p class="lead">
 帶份甜點給在家等你的人！為了讓大家都可以吃到最新鮮的甜點，所以全部都是當天現做。『數量真的很有限』『麻煩請大家理性購物~』每天下午5點之前訂購，晚上就能面交拿甜點</p>
@@ -103,10 +105,49 @@
     <div class="fix_bg bg_3">
         <div class="vcenter maintitle">
 		<h2 class="shadow section-heading">各式蛋糕如有特殊需求</h2>	
-		<h2 class="shadow section-heading">我們服務人員會給您建議</h2>		
-
+		<h2 class="shadow section-heading">我們服務人員會給您建議</h2>	
+		    </div>	
     </div>
+    <div class="info color_1" id="menu"> 
+    	<div class="container-fluid">
+	    	<div class="row">
+        <div class="col-sm-5 col-sm-offset-1 contact-info">
+	    	<h2 class="space">CONTACT US</h2>
+		    <span class="st-border"></span> 
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
+		    <p class="st-address"><i class="fa fa-map-marker"></i> E71 8th Ave, New York NY 21001, US</p>
+		    <p class="st-phone"><i class="fa fa-phone"></i> +00 123-456-789</p>
+		    <p class="st-email"><i class="fa fa-envelope-o"></i> email@yourdomain.com</p>
+		    <p class="st-website"><i class="fa fa-globe"></i> www.yourdomain.com</p>
+        </div>
+        <div class="col-sm-6 ">
+        <form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
+			<div class="row">
+				<div class="col-sm-6">
+					<input type="text" name="name" required="required" placeholder="Name*">
+				</div>
+				<div class="col-sm-6">
+					<input type="email" name="email" required="required" placeholder="Email*">
+				</div>
+				<div class="col-sm-6">
+					<input type="text" name="subject" placeholder="Subject">
+				</div>
+				<div class="col-sm-6">
+					<input type="text" name="website" placeholder="Website">
+				</div>
+				<div class="col-sm-12">
+					<textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
+				</div>
+				<div class="col-sm-12">
+					<input type="submit" name="submit" value="Send Message" class="btn btn-send">
+				</div>
+			</div>
+		</form>	
 
+        </div>
+	    	</div>
+    	</div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

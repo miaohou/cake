@@ -98,6 +98,10 @@ font-size: 1.5em;
   background-color: #533828;
 }
 
+.color_3{
+  background-color:red;
+}
+
 
 
 .vcenter{
@@ -133,4 +137,34 @@ font-size: 1.5em;
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+
+/* 最下面店家資訊 */
+.st-border {
+  margin: 10px 0;
+    width: 34px;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+}
+
+.contact-info{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.contact-info p {
+    margin-bottom: 20px;
+}
+.contact-info p i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    border: 1px solid #E8E8E8;
+    padding: 8px 14px;
+    width: 100%;
+    margin-bottom: 20px;
 }
